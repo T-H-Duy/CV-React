@@ -8,7 +8,7 @@ function Accomplishment () {
     const [modalData, setModalData] = useState({});
     const [modalImage, setModalImage] = useState();
 
-    const [accomplishment, setAccomplishment] = useState([
+    const [accomplishment] = useState([
         {
             id: 1,
             name: "Fresh food",

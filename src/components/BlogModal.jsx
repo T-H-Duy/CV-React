@@ -11,11 +11,11 @@ function BlogModal () {
     const [modalData, setModalData] = useState({});
     const [modalImage, setModalImage] = useState();
 
-    const [articles, setArticles] = useState([
+    const [articles] = useState([
         {
             id: 1,
             name: "Coder son site en HTML/CSS",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam convallis ex ac lorem ornare, pellentesque.",
+            desc: "Some quick example text to build on the card title and make up the bulk of the card's content.",
             date: "22 août 2022",
             img : {
                 src: coder,
@@ -25,7 +25,7 @@ function BlogModal () {
         {
             id: 2,
             name: "Vendre ses produits sur le web",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam convallis ex ac lorem ornare, pellentesque.",
+            desc: "Some quick example text to build on the card title and make up the bulk of the card's content.",
             date: "20 août 2022",
             img : {
                 src: croissance,
@@ -35,7 +35,7 @@ function BlogModal () {
         {
             id: 3,
             name: "Se positionner sur Google",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam convallis ex ac lorem ornare, pellentesque.",
+            desc: "Some quick example text to build on the card title and make up the bulk of the card's content.",
             date: "1 août 2022",
             img : {
                 src: google,
@@ -45,7 +45,7 @@ function BlogModal () {
         {
             id: 4,
             name: "Coder en responsive design",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam convallis ex ac lorem ornare, pellentesque.",
+            desc: "Some quick example text to build on the card title and make up the bulk of the card's content.",
             date: "31 juillet 2022",
             img : {
                 src: screens,
@@ -55,7 +55,7 @@ function BlogModal () {
         {
             id: 5,
             name: "Technique de référencement",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam convallis ex ac lorem ornare, pellentesque.",
+            desc: "Some quick example text to build on the card title and make up the bulk of the card's content.",
             date: "30 juillet 2022",
             img : {
                 src: seo,

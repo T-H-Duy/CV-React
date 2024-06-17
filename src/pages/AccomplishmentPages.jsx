@@ -2,7 +2,7 @@ import { useEffect } from "react"
 
 import Accomplishment from "../components/Accomplishment"
 
-export default function Realisations () {
+export default function AccomplishmentPages () {
     useEffect(() => {
         document.title = "Mes réallisations - John Doe"
     })

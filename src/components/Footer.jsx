@@ -75,8 +75,8 @@ function Footer() {
                 <li><Link to="/"><FontAwesomeIcon className="pe-2 chevronRight" icon={faChevronRight}/>Accueil</Link></li>
                 <li><Link to="/#about"><FontAwesomeIcon className="pe-2 chevronRight" icon={faChevronRight}/>A propos</Link></li>
                 <li><Link to="/services"><FontAwesomeIcon className="pe-2 chevronRight" icon={faChevronRight}/>Services</Link></li>
-                <li><Link to="/realisations"><FontAwesomeIcon className="pe-2 chevronRight" icon={faChevronRight}/>Réalisations</Link></li>
-                <li><Link to="/blog"><FontAwesomeIcon className="pe-2 chevronRight" icon={faChevronRight}/>Blog</Link></li>
+                <li><Link to="/accomplishmentPages"><FontAwesomeIcon className="pe-2 chevronRight" icon={faChevronRight}/>Réalisations</Link></li>
+                <li><Link to="/blogPages"><FontAwesomeIcon className="pe-2 chevronRight" icon={faChevronRight}/>Blog</Link></li>
                 <li><Link to="/contact"><FontAwesomeIcon className="pe-2 chevronRight" icon={faChevronRight}/>Me contacter</Link></li>
                 <li><Link to="/legal"><FontAwesomeIcon className="pe-2 chevronRight" icon={faChevronRight}/>Mention légales</Link></li>
               </ul>
@@ -84,17 +84,17 @@ function Footer() {
             <div className='col-12 col-md-6 col-xl-3'>
               <h4>Mes dernières réalisations</h4>
               <ul className='footer__list'>
-                <li><Link to="/realisations"><FontAwesomeIcon className="pe-2 chevronRight" icon={faChevronRight}/>Fresh food</Link></li>
-                <li><Link to="/realisations"><FontAwesomeIcon className="pe-2 chevronRight" icon={faChevronRight}/>Restaurant Akira</Link></li>
-                <li><Link to="/realisations"><FontAwesomeIcon className="pe-2 chevronRight" icon={faChevronRight}/>Espace bien-être</Link></li>
+                <li><Link to="accomplishmentPages"><FontAwesomeIcon className="pe-2 chevronRight" icon={faChevronRight}/>Fresh food</Link></li>
+                <li><Link to="accomplishmentPages"><FontAwesomeIcon className="pe-2 chevronRight" icon={faChevronRight}/>Restaurant Akira</Link></li>
+                <li><Link to="accomplishmentPages"><FontAwesomeIcon className="pe-2 chevronRight" icon={faChevronRight}/>Espace bien-être</Link></li>
               </ul>
             </div>
             <div className='col-12 col-md-6 col-xl-3'>
               <h4>Mes derniers articles</h4>
               <ul className='footer__list'>
-                <li><Link to="/blog"><FontAwesomeIcon className="pe-2 chevronRight" icon={faChevronRight}/>Coder son site en HTML/CSS</Link></li>
-                <li><Link to="/blog"><FontAwesomeIcon className="pe-2 chevronRight" icon={faChevronRight}/>Vendre ses produits sur le web</Link></li>
-                <li><Link to="/blog"><FontAwesomeIcon className="pe-2 chevronRight" icon={faChevronRight}/>Se positionner sur Google</Link></li>
+                <li><Link to="/blogPages"><FontAwesomeIcon className="pe-2 chevronRight" icon={faChevronRight}/>Coder son site en HTML/CSS</Link></li>
+                <li><Link to="/blogPages"><FontAwesomeIcon className="pe-2 chevronRight" icon={faChevronRight}/>Vendre ses produits sur le web</Link></li>
+                <li><Link to="/blogPages"><FontAwesomeIcon className="pe-2 chevronRight" icon={faChevronRight}/>Se positionner sur Google</Link></li>
               </ul>
             </div>
           </div>

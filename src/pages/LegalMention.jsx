@@ -76,7 +76,7 @@ export default function LegalMention () {
                     <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
                             <h3>Crédits</h3>
-                            <p>Site développé par Hugo Melin, étudiant du CEF.</p>
+                            <p>Site développé par John Doe.</p>
                             <p>Les images libres de droit sont issues du site <a href='https://pixabay.com/fr/' style={{ color: "#0d6efd"}}>Pixabay</a></p>
                         </div>
                     </div>
