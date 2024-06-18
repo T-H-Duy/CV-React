@@ -1,4 +1,5 @@
 import { useEffect } from 'react'
+import "../css/home.css"
 
 import Intro from "../components/Intro"
 import About from "../components/About"

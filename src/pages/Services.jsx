@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDisplay, faFileCode, faMagnifyingGlassDollar } from '@fortawesome/free-solid-svg-icons'
 import { useEffect } from 'react'
+import '../css/services.css'
 
 export default function Services () {
     useEffect(() => {

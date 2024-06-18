@@ -1,4 +1,4 @@
-
+import React from "react"
 import { Route, Routes } from 'react-router-dom';
 
 import Home from "./pages/Home";
@@ -23,7 +23,7 @@ function App() {
         <Route path='/accomplishmentPages' element={<AccomplishmentPages />}/>
         <Route path='/blogPages' element={<BlogPages />}/>
         <Route path='/contact' element={<Contact />}/>
-        <Route path='/legal' element={<LegalMention />}/>
+        <Route path='/legalMention' element={<LegalMention />}/>
         <Route path='/profil-github' element={<ApiGitHub />}/>
       </Routes>
 
