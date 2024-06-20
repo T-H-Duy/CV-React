@@ -1,6 +1,6 @@
 import { useEffect } from "react"
 
-import Accomplishment from "../components/Accomplishment"
+import AccomplishmentModal from "../components/AccomplishmentModal"
 
 export default function AccomplishmentPages () {
     useEffect(() => {
@@ -16,7 +16,7 @@ export default function AccomplishmentPages () {
                 <div className='border-bottom w-25 m-auto border-3' style={{"--bs-border-color": "#0d6efd"}}></div>
 
                 <div className="my-3">
-                    <Accomplishment/>
+                    <AccomplishmentModal/>
                 </div>
             </div>
         </div>

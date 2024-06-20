@@ -4,7 +4,7 @@ import freshFood from "../img/portfolio/fresh-food.jpg"
 import restaurantAkira from "../img/portfolio/restaurant-japonais.jpg"
 import espaceBienEtre from "../img/portfolio/espace-bien-etre.jpg"
 
-function Accomplishment () {
+function AccomplishmentModal () {
     const [modalData, setModalData] = useState({});
     const [modalImage, setModalImage] = useState();
 
@@ -82,4 +82,4 @@ function Accomplishment () {
     )
 }
 
-export default Accomplishment
+export default AccomplishmentModal

@@ -64,7 +64,7 @@ function Footer() {
                 <a className='me-3' rel="nofollow" href='https://twitter.com/home' target='blank'>
                   <FontAwesomeIcon icon={faSquareTwitter}/>
                 </a>
-                <a rel="nofollow" href='https://www.linkedin.com/feed/' target='blank'>
+                <a className='me-3' rel="nofollow" href='https://www.linkedin.com/feed/' target='blank'>
                   <FontAwesomeIcon icon={faLinkedin} />
                 </a>
               </div>
