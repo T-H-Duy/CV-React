@@ -5,7 +5,6 @@ import { useEffect } from 'react'
 export default function LegalMention () {
     useEffect(() => {
         document.title = "Mention Legal - John Doe"
-        // Fonction pour désindexer la page
         const desindexerPage = () => {
             const metaRobots = document.createElement('meta');
             metaRobots.name = 'robots';
@@ -13,10 +12,8 @@ export default function LegalMention () {
             document.head.appendChild(metaRobots);
         };
     
-        // Appeler la fonction pour désindexer la page
         desindexerPage();
     
-        // Fonction de nettoyage pour supprimer la balise meta lors du démontage du composant
         return () => {
             const metaRobots = document.querySelector('meta[name="robots"]');
             if (metaRobots) {
@@ -76,7 +73,7 @@ export default function LegalMention () {
                     <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
                             <h3>Crédits</h3>
-                            <p>Site développé par John Doe.</p>
+                            <p>Site développé par John Doe, étudiant du CEF.</p>
                             <p>Les images libres de droit sont issues du site <a href='https://pixabay.com/fr/' style={{ color: "#0d6efd"}}>Pixabay</a></p>
                         </div>
                     </div>

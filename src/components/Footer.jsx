@@ -9,7 +9,6 @@ import { useState, useEffect } from 'react'
 const ScrollToTopButton = () => {
     const [isVisible, setIsVisible] = useState(false);
   
-    // Fonction pour faire défiler la page vers le haut
     const scrollToTop = () => {
       window.scrollTo({
         top: 0,
@@ -17,13 +16,11 @@ const ScrollToTopButton = () => {
       });
     };
   
-    // Fonction pour gérer l'événement de défilement
     const handleScroll = () => {
       const scrollHeight = window.pageYOffset;
-      setIsVisible(scrollHeight > 300); // Ajuster la valeur 300 selon vos préférences
+      setIsVisible(scrollHeight > 300); 
     };
   
-    // Ajouter un écouteur d'événement pour le défilement
     useEffect(() => {
       window.addEventListener('scroll', handleScroll);
       return () => {
@@ -35,7 +32,7 @@ const ScrollToTopButton = () => {
       <>
         {isVisible && (
           <button
-            id='buttonTop'
+            id='upButton'
             onClick={scrollToTop}
           >
             <FontAwesomeIcon icon={faCircleChevronUp}/>
